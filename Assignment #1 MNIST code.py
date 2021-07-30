@@ -126,17 +126,6 @@ I added two methods that can save and load weight parameters to or from .pt file
 #
 
 
-def _no_grad(function):
-    """Decorator that stops autograd when being run"""
-    # Since test function doesn't require autograd,
-    #
-    @functools.wraps(function)
-    def decorated_func(*args, **kwargs):
-        with torch.no_grad():
-            return function(*args, **kwargs)
-    return decorated_func
-
-
 def train_model(
     model, train_loader, optimizer,
     device=None, log_hook=None, log_interval=10
@@ -174,7 +163,7 @@ def train_model(
             getattr(log_hook, 'train', log_hook)(loss, iteration)
 
 
-@_no_grad  # stop autograd progress
+@torch.no_grad()  # stop autograd progress
 def test_model(
     model, test_loader,
     device=None, log_hook=None
