@@ -222,18 +222,6 @@ class LSTM(nn.Module):
 #
 
 
-def no_grad(function):  # for evaluate function
-    """Decorator that stops autograd when being run"""
-    import functools
-
-    @functools.wraps(function)
-    def decorated_func(*args, **kwargs):
-        with torch.no_grad():
-            return function(*args, **kwargs)
-
-    return decorated_func
-
-
 def train_model(
         model,
         train_iter,
@@ -271,7 +259,7 @@ def train_model(
             getattr(log_hook, 'train', log_hook)(loss, iteration)
 
 
-@no_grad  # stop autograd progress
+@torch.no_grad()  # stop autograd progress
 def evaluate_model(
     model, val_iter,
     log_hook=None
