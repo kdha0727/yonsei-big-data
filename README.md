@@ -1,6 +1,6 @@
 ---
 
-# CSI4104 Big-Data class assignments, in Yonsei University.
+# CSI4104 Big-Data class, in Yonsei University.
 
 Written by **Dongha Kim**.
 
