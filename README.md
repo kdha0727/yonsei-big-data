@@ -58,6 +58,8 @@ Implemented min-hashing.
   <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange.svg?style=for-the-badge&logo=Jupyter" alt="Jupyter Code" height="28" />
 </a>
 
+See also [C++ implementation](https://github.com/QuqqU/signature-jaccard)
+
 ---
 
 # #4: Sentiment analysis
