@@ -23,7 +23,7 @@ Implement/train/test image classifier on MNIST dataset
 <a href="./Assignment%20%231%20MNIST%20code.py">
   <img src="http://ForTheBadge.com/images/badges/made-with-python.svg?style=for-the-badge&logo=Python" alt="Python Code" height="28" />
 </a>
-<a href="./Assignment%20%231%20MNIST%notebook.ipynb">
+<a href="./Assignment%20%231%20MNIST%20notebook.ipynb">
   <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange.svg?style=for-the-badge&logo=Jupyter" alt="Jupyter Code" height="28" />
 </a>
 
