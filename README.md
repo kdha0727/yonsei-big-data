@@ -2,11 +2,9 @@
 
 # CSI4104 Big-Data class, in Yonsei University.
 
-Written by **Dongha Kim**.
-
 ---
 
-# Assignment #1: MNIST
+# #1: MNIST
 
 Implement/train/test image classifier on MNIST dataset
 
@@ -29,13 +27,13 @@ Implement/train/test image classifier on MNIST dataset
 
 ---
 
-# Assignment #2: Book Exercise
+# #2: Book Exercise
 
 * See [Book Info](http://infolab.stanford.edu/~ullman/mmds/book.pdf).
 
 ---
 
-# Assignment #3: Min-hashing
+# #3: Min-hashing
 
 Implemented min-hashing.
 
@@ -62,7 +60,7 @@ Implemented min-hashing.
 
 ---
 
-# Assignment #4: Sentiment analysis
+# #4: Sentiment analysis
 
 Implemented text classifiers using RNN and LSTM which are able to achieve the sentiment analysis task.
 
